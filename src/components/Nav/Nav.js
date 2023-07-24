@@ -9,7 +9,7 @@ export default function Nav() {
         <li>
           <a href="index.html" className="brand">
             <img src={logo} alt="Ashfiq98" />
-            <h3>Ashfiq Vai</h3>
+            <h3>Ashfiq 98</h3>
           </a>
         </li>
       </ul>
