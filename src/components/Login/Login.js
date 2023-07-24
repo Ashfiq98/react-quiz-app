@@ -30,7 +30,7 @@ export default function Login() {
           <Button> Login</Button>
 
           <div className="info">
-            Don't have an account? <a href="signup.html">Login</a> instead.
+            Don't have an account? <a href="signup.html">Register</a> instead.
           </div>
           <div className="please">
             <img src={please} alt="" />
