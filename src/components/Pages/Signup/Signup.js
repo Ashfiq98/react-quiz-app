@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../Button/Button";
-import Checkbox from "../Checkbox/Checkbox";
-import Form from "../Form/Form";
-import Illustration from "../Illustration/Illustration";
-import TextInput from "../TextInput/TextInput";
+import Button from "../../Button/Button";
+import Checkbox from "../../Checkbox/Checkbox";
+import Form from "../../Form/Form";
+import Illustration from "../../Illustration/Illustration";
+import TextInput from "../../TextInput/TextInput";
 import classes from "./Signup.css";
 
 export default function Signup() {
@@ -39,7 +39,10 @@ export default function Signup() {
 
           <Checkbox text="I agree to the Terms & Conditions"></Checkbox>
 
-          <Button> Register </Button>
+          <Button>
+            {" "}
+            <span>Register</span>{" "}
+          </Button>
 
           <div className="info">
             Already have an account? <a href="login.html">Login</a> instead.
