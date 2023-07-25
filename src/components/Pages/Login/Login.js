@@ -9,9 +9,9 @@ import "./Login.css";
 export default function Login() {
   return (
     <>
-      <h1> Login to your account </h1>{" "}
+      <h1> Login to your account </h1>
       <div className="column">
-        <Illustration> </Illustration>{" "}
+        <Illustration> </Illustration>
         <Form className="login">
           <TextInput
             type="text"
@@ -25,17 +25,16 @@ export default function Login() {
           ></TextInput>
           {/* <Checkbox text="I agree to the Terms & Conditions"></Checkbox> */}
           <Button>
-            {" "}
-            <span>Login</span>Login{" "}
+            <span>Login</span>
           </Button>
           <div className="info">
-            Don 't have an account? <a href="signup.html">Register</a> instead.{" "}
-          </div>{" "}
+            Don 't have an account? <a href="signup.html">Register</a> instead.
+          </div>
           <div className="please">
             <img src={please} alt="" />
-          </div>{" "}
-        </Form>{" "}
-      </div>{" "}
+          </div>
+        </Form>
+      </div>
     </>
   );
 }
