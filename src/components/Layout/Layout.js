@@ -8,6 +8,7 @@ export default function Layout({ children }) {
       <main className="main">
         <div className="container">{children}</div>
       </main>
+      {/* <Outlet></Outlet> */}
     </>
   );
 }

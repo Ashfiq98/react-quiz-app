@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import please from "../../../assets/images/please.gif";
 import Button from "../../Button/Button";
 import Form from "../../Form/Form";
@@ -28,7 +29,8 @@ export default function Login() {
             <span>Login</span>
           </Button>
           <div className="info">
-            Don 't have an account? <a href="signup.html">Register</a> instead.
+            Don 't have an account? <Link to="/signup">create a account</Link>{" "}
+            instead.
           </div>
           <div className="please">
             <img src={please} alt="" />
