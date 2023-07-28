@@ -25,7 +25,7 @@ export function AuthProvider({ children }) {
       setCurrentUser(user);
       setLoading(false);
     });
-    return unsubscribe();
+    return () => unsubscribe();
   });
 
   //signup function
@@ -47,6 +47,10 @@ export function AuthProvider({ children }) {
   //login function
   function login(email, password) {
     const auth = getAuth();
+    const user = auth.currentUser;
+    setCurrentUser({
+      ...user,
+    });
     return signInWithEmailAndPassword(auth, email, password);
   }
 

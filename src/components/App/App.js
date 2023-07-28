@@ -9,43 +9,11 @@ import Signup from "../Pages/Signup/Signup";
 import "./App.css";
 
 import { AuthProvider } from "../../contexts/AuthContext";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import PublicRoute from "../PublicRoute/PublicRoute";
 
 function App() {
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <Layout></Layout>,
-  //     children: [
-  //       {
-  //         path: "/",
-  //         element: <Home></Home>,
-  //         // loader: ()=> fetch('products.json')
-  //       },
-  //       {
-  //         path: "/signup",
-  //         element: <Signup></Signup>,
-  //         // loader: productsAndCartLoader
-  //       },
-  //       {
-  //         path: "/login",
-  //         element: <Login></Login>,
-  //       },
-  //       {
-  //         path: "/quiz",
-  //         element: <Quiz></Quiz>,
-  //       },
-  //       {
-  //         path: "/result",
-  //         element: <Result></Result>,
-  //       },
-  //     ],
-  //   },
-  // ]);
-
   return (
-    // <div>
-    //   <RouterProvider router={router}></RouterProvider>
-    // </div>
     <Router>
       <AuthProvider>
         <Layout>
@@ -56,10 +24,43 @@ function App() {
             <Route exact path="/quiz" component={Quiz} />
             <Route exact path="/result" component={Result} /> */}
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/signup" element={<Signup />} />
-            <Route exact path="/login" element={<Login />} />
-            <Route exact path="/quiz" element={<Quiz />} />
-            <Route exact path="/result" element={<Result />} />
+            <Route
+              exact
+              path="/signup"
+              element={
+                <PublicRoute>
+                  <Signup />
+                </PublicRoute>
+              }
+            />
+            <Route
+              exact
+              path="/login"
+              element={
+                <PublicRoute>
+                  <Login />
+                </PublicRoute>
+              }
+            />
+            <Route
+              exact
+              path="/quiz"
+              element={
+                <PrivateRoute>
+                  <Quiz />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              exact
+              path="/result"
+              element={
+                <PrivateRoute>
+                  {" "}
+                  <Result />{" "}
+                </PrivateRoute>
+              }
+            />
           </Routes>
         </Layout>
       </AuthProvider>
