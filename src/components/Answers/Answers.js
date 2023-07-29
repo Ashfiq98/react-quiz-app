@@ -2,10 +2,18 @@ import React from "react";
 import Checkbox from "../Checkbox/Checkbox";
 import "./Answers.css";
 
-export default function Answers() {
+export default function Answers({ options = [], handleChange }) {
   return (
     <div className="answers">
-      <Checkbox className="answer" text="Test answer"></Checkbox>
+      {options.map((option, index) => (
+        <Checkbox
+          className="answer"
+          text={option.title}
+          value={index}
+          checked={option.checked}
+          onChange={(e) => handleChange(e, index)}
+        ></Checkbox>
+      ))}
     </div>
   );
 }

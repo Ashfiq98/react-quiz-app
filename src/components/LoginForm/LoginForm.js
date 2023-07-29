@@ -65,7 +65,7 @@ export default function LoginForm() {
       {error && <p className="error"> {error}</p>}
 
       <div className="info">
-        Don 't have an account? <Link to="/signup">create a account</Link>{" "}
+        Don 't have an account? <Link to="/signup">create an account</Link>{" "}
         instead.
       </div>
       <div className="please">
