@@ -1,7 +1,7 @@
 import { get, getDatabase, orderByKey, query, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
-export default function useVideoList(videoID) {
+export default function useQuestions(videoID) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [questions, setQuestions] = useState([]);
@@ -32,9 +32,7 @@ export default function useVideoList(videoID) {
       }
     }
 
-    setTimeout(() => {
-      fetchQuestions();
-    }, 1000);
+    fetchQuestions();
   }, [videoID]);
   return { loading, error, questions };
 }

@@ -48,9 +48,7 @@ export default function useVideoList(page) {
       }
     }
 
-    setTimeout(() => {
-      fetchVideos();
-    }, 1000);
+    fetchVideos();
   }, [page]);
   return { loading, error, videos, hasMore };
 }

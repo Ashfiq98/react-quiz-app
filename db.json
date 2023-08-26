@@ -1,0 +1,480 @@
+{
+    "answers": {
+        "4UZrsTqkcW4": {
+            "questions": [{
+                    "options": [{
+                            "correct": true,
+                            "title": "Jordan Walke"
+                        },
+                        {
+                            "correct": true,
+                            "title": " first deployed on Facebook's News Feed in 2011"
+                        },
+                        {
+                            "correct": true,
+                            "title": "prototype of React called \"FaxJS\""
+                        },
+                        {
+                            "title": "prototype of React called \"NextJS\""
+                        },
+                        {
+                            "title": "Brandon Eich"
+                        }
+                    ],
+                    "title": "Which of the following are related to react js? (multiple answer can be possible)"
+                },
+                {
+                    "options": [{
+                            "title": "High Pace of Development"
+                        },
+                        {
+                            "correct": true,
+                            "title": "allows reusability of code"
+                        },
+                        {
+                            "title": "a full-featured framework"
+                        },
+                        {
+                            "correct": true,
+                            "title": "makes it easier to find a tailor"
+                        }
+                    ],
+                    "title": "Benefits of react ___"
+                },
+                {
+                    "options": [{
+                            "title": "Original DOM"
+                        },
+                        {
+                            "correct": true,
+                            "title": "V DOM"
+                        },
+                        {
+                            "correct": true,
+                            "title": "Virtual DOM"
+                        },
+                        {
+                            "title": "Real DOM"
+                        }
+                    ],
+                    "title": "Which of the following is used in React.js to increase performance?"
+                },
+                {
+                    "options": [{
+                            "correct": true,
+                            "title": "Javascript compiler"
+                        },
+                        {
+                            "title": "node runtime"
+                        },
+                        {
+                            "title": "Ecma Compiler"
+                        },
+                        {
+                            "correct": true,
+                            "title": "Toolchain"
+                        }
+                    ],
+                    "title": "What is babel?"
+                }
+            ]
+        },
+
+        "W6NZfCO5SIk": {
+            "questions": [{
+                    "options": [{
+                            "correct": true,
+                            "title": "with var"
+                        },
+                        {
+                            "correct": true,
+                            "title": "with let"
+                        },
+                        {
+                            "correct": true,
+                            "title": "with const"
+                        },
+                        {
+                            "title": "with variable"
+                        },
+                        {
+                            "title": "with declare"
+                        },
+                        {
+                            "title": "with new"
+                        },
+                        {
+                            "title": "with number"
+                        },
+                        {
+                            "title": "with string"
+                        },
+                        {
+                            "title": "with boolean"
+                        },
+                        {
+                            "title": "with nothing"
+                        }
+                    ],
+                    "title": "How to declare JavaScript variables?"
+                },
+                {
+                    "options": [{
+                            "title": "September 1998"
+                        },
+                        {
+                            "title": "October 1999"
+                        },
+                        {
+                            "correct": true,
+                            "title": "September 1995"
+                        },
+                        {
+                            "title": "September 1993"
+                        },
+                        {
+                            "title": "August 1990"
+                        },
+                        {
+                            "title": "January 1995"
+                        },
+                        {
+                            "title": "with number"
+                        },
+                        {
+                            "title": "December 1995"
+                        },
+                        {
+                            "title": "March 1996"
+                        },
+                        {
+                            "title": "January 1970"
+                        }
+                    ],
+                    "title": "When was JavaScript invented?"
+                },
+                {
+                    "options": [{
+                            "title": "Jordan Walke"
+                        },
+                        {
+                            "correct": true,
+                            "title": "Netscape"
+                        },
+                        {
+                            "title": "Jack Ma"
+                        },
+                        {
+                            "title": "Nayok Razzaq"
+                        },
+                        {
+                            "title": "Takla Rubel"
+                        },
+                        {
+                            "title": "Tarzan"
+                        },
+                        {
+                            "correct": true,
+                            "title": "Brendan Eich"
+                        },
+                        {
+                            "title": "Mark Zuckerburg"
+                        },
+                        {
+                            "title": "Bill Gates"
+                        },
+                        {
+                            "title": "Steve Jobs"
+                        }
+                    ],
+                    "title": "Who or which company created JavaScript?"
+                },
+                {
+                    "options": [{
+                            "title": "ES2020"
+                        },
+                        {
+                            "correct": true,
+                            "title": "ES2021"
+                        },
+                        {
+                            "title": "ES6"
+                        },
+                        {
+                            "title": "ES7"
+                        },
+                        {
+                            "title": "ES8"
+                        },
+                        {
+                            "title": "ES2022"
+                        },
+                        {
+                            "title": "ES21"
+                        },
+                        {
+                            "title": "ES3"
+                        },
+                        {
+                            "title": "ES9"
+                        },
+                        {
+                            "title": "ES2020"
+                        }
+                    ],
+                    "title": "What is the latest version of ECMAScript"
+                }
+            ]
+        }
+    },
+    "quiz": {
+        "4UZrsTqkcW4": {
+            "questions": [{
+                    "options": [{
+                            "title": "Jordan Walke"
+                        },
+                        {
+                            "title": " first deployed on Facebook's News Feed in 2011"
+                        },
+                        {
+                            "title": "prototype of React called \"FaxJS\""
+                        },
+                        {
+                            "title": "prototype of React called \"NextJS\""
+                        },
+                        {
+                            "title": "Brandon Eich"
+                        }
+                    ],
+                    "title": "Which of the following are related to react js? (multiple answer can be possible)"
+                },
+                {
+                    "options": [{
+                            "title": "High Pace of Development"
+                        },
+                        {
+                            "title": "allows reusability of code"
+                        },
+                        {
+                            "title": "A full-featured framework"
+                        },
+                        {
+                            "title": "makes it easier to find a tailor"
+                        }
+                    ],
+                    "title": "Benefits of react ___"
+                },
+                {
+                    "options": [{
+                            "title": "Original DOM"
+                        },
+                        {
+                            "title": "V DOM"
+                        },
+                        {
+                            "title": "Virtual DOM"
+                        },
+                        {
+                            "title": "Real DOM"
+                        }
+                    ],
+                    "title": "Which of the following is used in React.js to increase performance?"
+                },
+                {
+                    "options": [{
+                            "title": "Javascript compiler"
+                        },
+                        {
+                            "title": "node runtime"
+                        },
+                        {
+                            "title": "Ecma Compiler"
+                        },
+                        {
+                            "title": "Toolchain"
+                        }
+                    ],
+                    "title": "What is babel?"
+                }
+            ]
+        },
+
+        "W6NZfCO5SIk": {
+            "questions": [{
+                    "options": [{
+                            "title": "with var"
+                        },
+                        {
+                            "title": "with let"
+                        },
+                        {
+                            "title": "with const"
+                        },
+                        {
+                            "title": "with variable"
+                        },
+                        {
+                            "title": "with declare"
+                        },
+                        {
+                            "title": "with new"
+                        },
+                        {
+                            "title": "with number"
+                        },
+                        {
+                            "title": "with string"
+                        },
+                        {
+                            "title": "with boolean"
+                        },
+                        {
+                            "title": "with nothing"
+                        }
+                    ],
+                    "title": "How to declare JavaScript variables?"
+                },
+                {
+                    "options": [{
+                            "title": "September 1998"
+                        },
+                        {
+                            "title": "October 1999"
+                        },
+                        {
+                            "title": "September 1995"
+                        },
+                        {
+                            "title": "September 1993"
+                        },
+                        {
+                            "title": "August 1990"
+                        },
+                        {
+                            "title": "January 1995"
+                        },
+                        {
+                            "title": "with number"
+                        },
+                        {
+                            "title": "December 1995"
+                        },
+                        {
+                            "title": "March 1996"
+                        },
+                        {
+                            "title": "January 1970"
+                        }
+                    ],
+                    "title": "When was JavaScript invented?"
+                },
+                {
+                    "options": [{
+                            "title": "Jordan Walke"
+                        },
+                        {
+                            "title": "Netscape"
+                        },
+                        {
+                            "title": "Jack Ma"
+                        },
+                        {
+                            "title": "Nayok Razzaq"
+                        },
+                        {
+                            "title": "Takla Rubel"
+                        },
+                        {
+                            "title": "Tarzan"
+                        },
+                        {
+                            "title": "Brendan Eich"
+                        },
+                        {
+                            "title": "Mark Zuckerburg"
+                        },
+                        {
+                            "title": "Bill Gates"
+                        },
+                        {
+                            "title": "Steve Jobs"
+                        }
+                    ],
+                    "title": "Who or which company created JavaScript?"
+                },
+                {
+                    "options": [{
+                            "title": "ES2020"
+                        },
+                        {
+                            "title": "ES2021"
+                        },
+                        {
+                            "title": "ES6"
+                        },
+                        {
+                            "title": "ES7"
+                        },
+                        {
+                            "title": "ES8"
+                        },
+                        {
+                            "title": "ES2022"
+                        },
+                        {
+                            "title": "ES21"
+                        },
+                        {
+                            "title": "ES3"
+                        },
+                        {
+                            "title": "ES9"
+                        },
+                        {
+                            "title": "ES2020"
+                        }
+                    ],
+                    "title": "What is the latest version of ECMAScript"
+                }
+            ]
+        }
+    },
+    "videos": [
+        null,
+        {
+            "noq": 4,
+            "title": "JavaScript Tutorial for Beginners: Learn JavaScript with easy way",
+            "youtubeID": "W6NZfCO5SIk"
+        },
+        {
+            "noq": 4,
+            "title": "Full React Course - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks",
+            "youtubeID": "4UZrsTqkcW4"
+        },
+        {
+            "noq": 0,
+            "title": "Top 8 Data Structures for Coding Interviews  ",
+            "youtubeID": "uhYq27iSk9s"
+        },
+        {
+            "noq": 0,
+            "title": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
+            "youtubeID": "8hly31xKli0"
+        },
+        {
+            "noq": 0,
+            "title": "Node.js Ultimate Beginner’s Guide in 7 Easy Steps",
+            "youtubeID": "ENrzD9HAZK4"
+        },
+        {
+            "noq": 0,
+            "title": "I solved 541 Leetcode problems. But you need only 150",
+            "youtubeID": "xF554Tlzo-c"
+        },
+        {
+            "noq": 0,
+            "title": "Advice from the Top 1% of Software Engineers",
+            "youtubeID": "ydYBRLoBUpY"
+        }
+    ]
+}
